@@ -1,0 +1,30 @@
+Html Webpack Plugin:
+<pre>
+  Error: Parse Error: <link font-family: "Montserrat", sans-serif;
+      href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
+      rel="stylesheet" />
+      <link rel="stylesheet" href="styles.css" />
+    <link href="/static/css/main.f047a27d.chunk.css" rel="stylesheet"></head>
+    <body>
+      <div id="root"></div>
+      <script src="../src/index.js" type="text/jsx"></script>
+    <script>!function(e){function r(r){for(var n,l,f=r[0],i=r[1],a=r[2],c=0,s=[];c<f.length;c+  +)l=f[c],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in i)  Object.prototype.hasOwnProperty.call(i,n)&&(e[n]=i[n]);for(p&&p(r);s.length;)s.shift()();ret  urn u.push.apply(u,a||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0  ,f=1;f<t.length;f++){var i=t[f];0!==o[i]&&(n=!1)}n&&(u.splice(r--,1),e=l(l.s=t[0]))}return e  }var n={},o={1:0},u=[];function l(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,export  s:{}};return e[r].call(t.exports,t,t.exports,l),t.l=!0,t.exports}l.m=e,l.c=n,l.d=function(e,  r,t){l.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},l.r=function(e){"undefined"  !==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Mod  ule"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,r){if(1&r&&(e=l(e)),  8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var t=Object.create(null)  ;if(l.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof   e)for(var n in e)l.d(t,n,function(r){return e[r]}.bind(null,n));return t},l.n=function(e){va  r r=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(r,"a",r),r}  ,l.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},l.p="/";var f=this.webp  ackJsonphomework2=this.webpackJsonphomework2||[],i=f.push.bind(f);f.push=r,f=f.slice();for(v  ar a=0;a<f.length;a++)r(f[a]);var p=i;t()}([]);
+  //# sourceMappingURL=runtime-main.dc2028ad.js.map</script><script src="/static/js/2.ae91dc6e  .chunk.js"></script><script src="/static/js/main.15f8e8f3.chunk.js"></script></body>
+  </html>
+  
+  - htmlparser.js:240 new HTMLParser
+    [Homework2]/[html-minifier]/src/htmlparser.js:240:13
+  
+  - htmlminifier.js:966 minify
+    [Homework2]/[html-minifier]/src/htmlminifier.js:966:3
+  
+  - htmlminifier.js:1326 Object.exports.minify
+    [Homework2]/[html-minifier]/src/htmlminifier.js:1326:16
+  
+  - index.js:437 HtmlWebpackPlugin.postProcessHtml
+    [Homework2]/[html-webpack-plugin]/index.js:437:34
+  
+  - index.js:270 
+    [Homework2]/[html-webpack-plugin]/index.js:270:25
+  
+</pre>
