@@ -3,7 +3,9 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Entry from "./Note";
 import notes from "../notes";
-import "./App.css";
+import "./Button.css";
+
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           />
         );
       })}
+      <button class="button button1">Open Sandbox</button>
     </div>
   );
 }

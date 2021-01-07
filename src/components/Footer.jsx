@@ -8,11 +8,9 @@ function getYear (){
 const Footer = () => {
     return(
         <div className = "footer">
-            <div className = "footer p">
-                <p> Copyright @ 
-                    <span> {getYear()} </span>
-                </p>
-           </div>
+            <p> Copyright @ 
+                <span> {getYear()} </span>
+           </p>
         </div>
     )
 }
